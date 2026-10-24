@@ -1,8 +1,3 @@
-
-import os
-# Redirect Hugging Face cache to your spacious D: drive
-os.environ["HF_HOME"] = "D:\\languages\\projects\\article-analyzer\\hf_cache"
-
 import os
 import gradio as gr
 from transformers import pipeline
